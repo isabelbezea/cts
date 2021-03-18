@@ -1,5 +1,6 @@
 package ro.ase.cts.main;
 
+import ro.ase.cts.clase.Bicicleta;
 import ro.ase.cts.clase.DepartamentFinanciar;
 import ro.ase.cts.clase.DepartamentFinanciarEager;
 
@@ -28,5 +29,16 @@ public class Main {
 	
 	System.out.println(primulDepartamentFinanciar.toString());
 	System.out.println(alDoileaDepartamentFinanciar.toString());
+	
+	
+
+	System.out.println("-------");
+	
+	Bicicleta bicicleta1=Bicicleta.getInstance("Cube", 30,"rosie");
+	Bicicleta bicicleta2=Bicicleta.getInstance("Trek", 40, "albastra");
+	
+	System.out.println(bicicleta1.toString());
+	System.out.println(bicicleta2.toString());
+	
 	}
 }
