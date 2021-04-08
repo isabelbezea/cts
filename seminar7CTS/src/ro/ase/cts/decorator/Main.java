@@ -7,7 +7,7 @@ public class Main {
 	card.realizeazaPlataNormala();
 	card.realizeazaPlataOnline();
 	
-	DecoratorAbstract decoratorAbstract=(DecoratorAbstract) new DecoratorContactless(card);
+	DecoratorAbstract decoratorAbstract= new DecoratorContactless(card);
 	
 	decoratorAbstract.realizeazaPlataContactless();
 	decoratorAbstract.realizeazaPlataNormala();
