@@ -19,13 +19,11 @@ public class SpectatorVIP extends SpectatorAbstract{
 	public void prezintaBilet() {
 		System.out.println(numeVIP +" prezinta bilet VIP");
 		
-		
 	}
 
 	@Override
 	public void realizareControlCorporal() {
 		System.out.println(numeVIP +" realizeaza control VIP");
-		
 		
 	}
 
