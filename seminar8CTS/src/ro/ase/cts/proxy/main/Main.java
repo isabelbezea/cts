@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		OperatorRezervari operator1= new OperatorRezervari();
 		
-		operator1.realizaeazaRezervare(2);
+		//operator1.realizaeazaRezervare(2);
 		
 		ProxyOperatorRezervari proxyOperatorRezervari=new ProxyOperatorRezervari(operator1, 4);
 

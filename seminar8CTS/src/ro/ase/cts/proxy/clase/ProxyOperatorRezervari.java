@@ -19,7 +19,7 @@ public class ProxyOperatorRezervari implements IOperatorRezervari {
 		if(nrPersoane>=nrMinimPersoane) {
 			operator.realizaeazaRezervare(nrPersoane);
 		}
-		else {System.out.println("Va rugam nu veniti la restaurant fara rezervare");
+		else {System.out.println("Va rugam veniti la restaurant fara rezervare");
 	}
 	}
 	

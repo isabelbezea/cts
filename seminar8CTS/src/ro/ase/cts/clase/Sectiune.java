@@ -6,7 +6,9 @@ import java.util.List;
 public class Sectiune implements ComponentaAbstracta {
 
 	
-	 
+	private String denumire;
+	List<ComponentaAbstracta> optiuni;
+	
 	public Sectiune(String denumire) {
 		super();
 		this.denumire = denumire;
@@ -14,8 +16,7 @@ public class Sectiune implements ComponentaAbstracta {
 	}
 	
 	
-	private String denumire;
-	List<ComponentaAbstracta> optiuni;
+
 	@Override
 	public void afiseazaDescriere() {
 		System.out.println("Sectiunea "+denumire);
